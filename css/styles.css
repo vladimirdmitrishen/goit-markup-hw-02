@@ -116,7 +116,7 @@ ul {
   color: var(--color-gray);
 }
 
-.hero-wrap {
+.hero-section {
   background: #2f303a;
  padding-top: 200px;
  padding-bottom: 200px;
@@ -160,8 +160,11 @@ ul {
 }
 
 .section-title {
-  list-style: none;
   display: flex;
+  gap: 30px;
+}
+.section-subtitle {
+flex-basis: calc ((100% - 90px) / 4) ;
 }
 
 .section-subtitle-lead {
@@ -194,9 +197,12 @@ ul {
   display: flex;
   gap: 30px;
 }
+
 .images-item {
- width: 370px;
- height: 294px;
+display: block;
+max-width: 100%;
+height: auto;
+
 }
 
 .team-subtitle {
@@ -255,19 +261,19 @@ ul {
   list-style: none;
   margin-top: 20px;
 }
+.footer-address {
+  margin-bottom: 9px;
+}
 
 .address-subtitle {
   line-height: 1.7142;
   text-decoration: none;
-  margin-bottom: 9px;
   color: var(--color-white)
-
 }
 .address-mail {
   text-decoration: none;
   font-style: normal;
   line-height: 1.7142;
-  margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
 } 
 
